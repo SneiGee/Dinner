@@ -1,21 +1,76 @@
-# API Documentation
+# BuberDinner API
 
-## Register
+- [BuberDinner API](#buberdinner-api)
+  - [Auth](#auth)
+    - [Register](#register)
+    - [Register Request](#register-request)
+    - [Register Response](#register-response)
+    - [Login](#login)
+    - [Login Request](#login-request)
+    - [Login Response](#login-response)
+
+## Auth
+
+### Register
+
+```js
+POST {{host}}/auth/register
+```
+
+### Register Request
 
 ```json
 {
-    "firstName": "Joe",
-    "lastNAme": "Doe",
-    "email": "john@test.com",
-    "password": "password"
+    "firstName":"Cesar",
+    "lastName":"Espitia",
+    "email":"livecesar@gmail.com",
+    "password":"ThePassword"
 }
 ```
 
-## Login
+### Register Response
+
+```js
+200 OK
+```
 
 ```json
 {
-    "email": "john@test.com",
-    "password": "password"
+    "id":"guid  like id kind of type",
+    "firstName":"Cesar",
+    "lastName":"Espitia",
+    "email":"livecesar@gmail.com",
+    "token":"TheToken"
+}
+```
+
+### Login
+
+```js
+POST {{host}}/auth/Login
+```
+
+### Login Request
+
+```json
+{
+    "email":"livecesar@gmail.com",
+    "password":"ThePassword"
+}
+```
+
+### Login Response
+
+```js
+200 OK
+```
+
+```json
+{
+    "id":"guid  like id kind of type",
+    "firstName":"Cesar",
+    "lastName":"Espitia",
+    "email":"livecesar@gmail.com",
+    "token":"TheToken"
 }
 ```
