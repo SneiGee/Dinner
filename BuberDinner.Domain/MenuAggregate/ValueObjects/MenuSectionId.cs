@@ -1,7 +1,7 @@
 using System;
 using BuberDinner.Domain.Common.Models;
 
-namespace BuberDinner.Domain.Menu.ValueObjects;
+namespace BuberDinner.Domain.MenuAggregate.ValueObjects;
 
 public sealed class MenuSectionId : ValueObject
 {
