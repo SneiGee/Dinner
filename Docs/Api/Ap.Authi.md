@@ -1,7 +1,7 @@
 # BuberDinner API
 
 - [BuberDinner API](#buberdinner-api)
-  - [Auth](#auth)
+  - [Authentication](#authentication)
     - [Register](#register)
     - [Register Request](#register-request)
     - [Register Response](#register-response)
@@ -9,7 +9,7 @@
     - [Login Request](#login-request)
     - [Login Response](#login-response)
 
-## Auth
+## Authentication
 
 ### Register
 

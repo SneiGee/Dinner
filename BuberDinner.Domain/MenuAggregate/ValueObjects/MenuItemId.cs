@@ -7,10 +7,7 @@ public sealed class MenuItemId : ValueObject
 {
     public Guid Value { get; }
 
-    private MenuItemId(Guid value)
-    {
-        Value = value;
-    }
+    private MenuItemId(Guid value) => Value = value;
 
     public static MenuItemId CreateUnique()
     {

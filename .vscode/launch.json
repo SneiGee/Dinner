@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/BuberDinner.Api/bin/Debug/net6.0/BuberDinner.Api.dll",
+            "program": "${workspaceFolder}/BuberDinner.Api/bin/Debug/net7.0/BuberDinner.Api.dll",
             "args": [],
             "cwd": "${workspaceFolder}/BuberDinner.Api",
             "stopAtEntry": false,
