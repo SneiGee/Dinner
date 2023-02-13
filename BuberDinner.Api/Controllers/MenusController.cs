@@ -13,7 +13,7 @@ namespace BuberDinner.Api.Controllers;
 public class MenusController : ApiController
 {
     private readonly IMapper _mapper;
-        private readonly ISender _mediator;
+    private readonly ISender _mediator;
 
     public MenusController(IMapper mapper, ISender mediator)
     {
